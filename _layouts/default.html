@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=790"/>
+	<title>Untitled</title>	
+	<meta name="description" content="Description" />
+	<meta name="image:BackgroundImage" content="http://static.tumblr.com/ybdgkw4/ffzkxsss6/bg-400-paper2.jpg"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="Main">
+		<div id="Header">
+			<div class="Title">
+				<a href="#" title="/" class="Title">Photo Unrelated</a>
+			</div>
+				<div class="PageLinks" style="display: none; ">
+				</div>
+			<div class="Description">
+				This is Sophia's Blog. Stuff and Things.
+			</div>
+		</div>
+			{{ content }}
+		<div id="Footer">
+			<div class="Pagination">
+				<span class="Numeration">
+          {% if paginator.previous_page and paginator.previous_page != "1" %}
+          <a href="/page{{ paginator.previous_page }}">&lt;&lt; Previous</a> :: 
+          {% elsif paginator.previous_page %}
+          <a href="/">&lt;&lt; Previous</a> :: 
+          {% endif %}
+          Page {{ paginator.page }} of {{ paginator.total_pages }}
+          {% if paginator.next_page %} 
+           :: <a href="/page{{ paginator.next_page }}">Next &gt;&gt;</a>
+          {% endif %}
+				</span>
+			</div>
+			<div class="UtilityLinks">
+				<a href="#" title="/archive">Archive</a>
+				<a href="#" title="">RSS</a>
+			</div>
+			<div class="Colophon">
+			</div>
+		</div>
+	</div>
+	</noscript></body>
+</html>

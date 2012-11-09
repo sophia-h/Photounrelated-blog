@@ -1,0 +1,11 @@
+---
+layout: default
+title: Not Untitled
+---
+{% for post in paginator.posts %}
+  <div class="post">
+	  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	  {{ post.content }}
+	  <div class="info">Posted by Sophia on {{ post.date }}</div>
+	</div>
+{% endfor %}
