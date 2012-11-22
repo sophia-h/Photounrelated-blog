@@ -4,7 +4,7 @@ title: I went to Colorado
 date: 2012-11-21 18:05:12 -0600
 ---
 
-Back in September Matt and I went to Colorado.  Yup.  
+Back in September Matt and I went to Colorado.  Yup. 
 
 <div class="center">
   <img src='http://photounrelated.com/images/Colorado-2012/0001.jpg' />
