@@ -1,0 +1,15 @@
+---
+layout: post
+title: Barcelona Graffiti
+date: 2012-11-22 10:40:36 -0600
+---
+Barcelona had some of the most amazing graffiti.  I took about 200 pictures, but I think these are the best.  Eh, I try.  
+<div class="center">
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0001.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0002.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0003.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0004.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0005.jpg' />  <img src='http://photounrelated.com/images/graffiti-barcelona/0006.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0007.jpg' />
+  <img src='http://photounrelated.com/images/graffiti-barcelona/0008.jpg' />  <img src='http://photounrelated.com/images/graffiti-barcelona/0009.jpg' />
+</div>

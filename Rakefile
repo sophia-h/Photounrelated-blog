@@ -8,7 +8,7 @@ end
 task :new_post, [:post_name, :image_numbers, :image_dir] do |t, args|
 
   range = args.image_numbers.split("-").map {|s| s.to_i}
-  images = (range[0]..range[1]).map {|n| "<img src='http://photounrelated.com/_images/#{args.image_dir}/#{number(n)}.jpg' />"}
+  images = (range[0]..range[1]).map {|n| "<img src='http://photounrelated.com/images/#{args.image_dir}/#{number(n)}.jpg' />"}
   
   
   date = Time.now.strftime('%Y-%m-%d')
