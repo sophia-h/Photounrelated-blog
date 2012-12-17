@@ -8,11 +8,11 @@ a:active, a:focus {outline: 0;}
 h1,h2,h3,h4,h5,h6,span {font-size:100%;font-weight:normal;}
 body {
 	font-family: Questrial, Carrois Gothic, Helvetica, Arial, sans-serif;
-	text-shadow:#efefef 1px 1px 0px;
+	
+	font-weight: bold;
 	font-size: 22px;
-	color: #222;
-	background-color:#f8f8f8;
-	background-image:url(bg-400-paper2.jpg);
+	color: #fff;
+	background-color:#000;
 	margin: 40px 0 20px 0;
 	padding: 0;
 	}
@@ -62,14 +62,13 @@ a#InstallThisTheme {
 			}
 			#Header .Title a.Title {
 				width: 688px;
-				color: #222;
+				color: #fff;
 				font-size: 45px;
 				line-height: 1;
 				font-family: QuicksandBold, Helvetica, Arial, sans-serif;
 				font-weight: bold;
 				letter-spacing: 3px;
 				text-decoration: none;
-				text-shadow:#ddd 1px 1px 0px, #999 0px 0px 10px, #999 0px 0px 10px;
 				border-bottom: 0px;
 				}
 		#Header .PageLinks {
@@ -104,22 +103,20 @@ a#InstallThisTheme {
 		}
 		.post img {
 			max-width: 890px;
-      max-height: 650px;
-      margin: 10px 7px 0 7px;
-			-webkit-box-shadow: #444 0px 0px 6px;
-			-moz-box-shadow: 	#444 0px 0px 6px;
-			}
+            max-height: 650px;
+            margin: 10px 7px 0 7px;
+			border: 3px solid white;
+		}
 		.post a.Title {
 			display:block;
 			line-height: 1.4;
-			color: #222;
+			color: #fff;
 			margin-bottom:22px;
 			font-family:QuicksandBold, Helvetica, Arial, sans-serif;
 			font-weight: bold;
 			letter-spacing: 2px;
 			text-transform:uppercase;
 			text-decoration:none;
-			text-shadow:#ccc 1px 1px 0px, #666 0px 0px 6px;
 			border-bottom:0px;
 		  	}
 			.post a.Title:hover {
@@ -135,12 +132,12 @@ a#InstallThisTheme {
 			line-height:1.2;
 			}
 		.post a {
-			color: #000;
+			color: #fff;
 			border-bottom:1px solid #aaa;
 			text-decoration: none;
 			}
 		.post a:hover {
-			color: #222;
+			color: #707070;
 			border-bottom:none;
 			}				
 		.post p {
@@ -239,7 +236,7 @@ a#InstallThisTheme {
 		overflow: hidden;
 		}
 		#Footer a {
-			color: #202020;
+			color: #b0b0b0;
 			font-weight: bold;
 			margin-right:10px;
 			text-transform: uppercase;
@@ -294,7 +291,6 @@ a#InstallThisTheme {
 		padding:20px 40px 40px 40px;
 		}	
 	body * {
-		text-shadow:none!important;
 		font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		float:none;
 		}
