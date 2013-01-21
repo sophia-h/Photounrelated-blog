@@ -2,7 +2,8 @@
 layout: post
 title: Last Pictures (maybe) from Barcelona
 date: 2013-01-20 20:51:40 -0600
----These are the last pictures I think I will post from Barcelona that are of things and not people.  This is a total hodgepodge of stuff that really has no order or theme.  Just a bunch of lovely things.  The vacation was a shit ton of fun.   
+---
+These are the last pictures I think I will post from Barcelona that are of things and not people.  This is a total hodgepodge of stuff that really has no order or theme.  Just a bunch of lovely things.  The vacation was a shit ton of fun.   
 
 <div class="center">
   <img src='http://photounrelated.com/images/barcelona-last/0001.jpg' />
